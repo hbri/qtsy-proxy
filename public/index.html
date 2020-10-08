@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="bundle.js"></script>
+    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+
+<script
+  src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+  crossorigin></script>
+
+<script
+  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin></script>
+
+<script>var Alert = ReactBootstrap.Alert;</script>
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+  crossorigin="anonymous"
+/>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Open+Sans&family=Oswald:wght@300;400;500&family=Raleway:wght@300&family=Martel:wght@200&family=Open+Sans+Condensed:wght@300&family=Bitter:wght@300;400;500;600&family=Roboto:wght@300;400;500&family=Heebo:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="photoCarousel.css">
+    <link rel="stylesheet" href="productDetails.css">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>qtsy combined</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="mainapp">
+      <div id="topheader"></div>
+      <div id="photoCarousel"></div>
+      <div id="productDetails"></div>
+      <div id="reviews"></div>
+      <div id="store"></div>
+    </div>
+    <!-- <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script> -->
+    <script src="http://localhost:3003/photoCarousel"></script>
+    <script src="http://localhost:3002/productDetails"></script>
+    <script src="http://localhost:3004/store"></script>
+    <script src="http://localhost:3001/reviews"></script>
   </body>
 </html>

@@ -1,0 +1,34 @@
+#mainapp {
+  display: grid;
+  grid-template-rows: 120px 650px 1fr 550px;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+#topheader {
+  background: url(https://qtlyimages.s3-us-west-2.amazonaws.com/header2.png) no-repeat center;
+  height: 100%;
+  grid-area: 1 / 1 / span 1 / span 2;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+#photoCarousel {
+  grid-area: 2 / 1 / span 1 / span 1;
+  max-height: 500px;
+  margin-top: 25px;
+}
+
+#productDetails {
+  grid-area: 2 / 2 / span 2 / span 1;
+  margin-top: 25px;
+}
+
+#reviews {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+#store {
+  grid-area: 4 / 1 / span 1 / span 2;
+}

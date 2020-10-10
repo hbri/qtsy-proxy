@@ -14,10 +14,11 @@
   margin-bottom: 25px;
 }
 
-#photoCarousel {
+#photoCarouselblh {
   grid-area: 2 / 1 / span 1 / span 1;
-  max-height: 500px;
   margin-top: 25px;
+  align-self: start;
+  justify-self: start;
 }
 
 #productDetails {
